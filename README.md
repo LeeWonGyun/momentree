@@ -16,8 +16,9 @@
 `docs/` 안의 HTML, CSS, JavaScript, 이미지 파일이 웹사이트 원본입니다.
 별도 빌드나 패키지 설치 없이 사용할 수 있습니다.
 
-GitHub Pages의 배포 원본은 `main` 브랜치의 `/docs` 폴더입니다.
-파일을 수정하여 `main`에 반영하면 웹사이트도 업데이트됩니다.
+편집 원본은 `main` 브랜치의 `/docs` 폴더입니다.
+GitHub Pages는 `gh-pages` 브랜치의 루트(`/`)에서 게시합니다.
+원본 수정 후 게시 파일을 `gh-pages`에 반영하면 공개 웹사이트가 자동으로 업데이트됩니다.
 
 프로그램 일정과 담당자는 `docs/programs-data.json` 및 해당 상세 페이지에서 관리합니다.
 강사진 소개는 `docs/people.html`에서 수정합니다.
